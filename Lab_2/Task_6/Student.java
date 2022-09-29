@@ -35,7 +35,7 @@ public class Student {
      * Instantiate Student Object
      * @param name 
      * @param GPA
-     * @param noOfSubjects
+     * @param noOfSubjects String array. Recommended Length 5; Object can only hold 5. If more than 5 pass later will be skipped. If less than 5 passed other will be null; 
      * @param email Must be Valid
      * @throws RunTimeException
      */
