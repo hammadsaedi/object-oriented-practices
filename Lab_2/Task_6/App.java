@@ -12,15 +12,28 @@ public class App {
 
         std1.setEmail("faoqzuhair@gmail.com");
         System.out.println(std1.validateEmail());
-        
-        std1.setEmail("faoqzuhair@gmailcom");
+        try {
+            std1.setEmail("faoqzuhairgmailcom");
+        } catch (RuntimeException e) {
+            System.out.println(e);
+        }
         System.out.println(std1.validateEmail());
 
-        for (int i = 0; i < std1.getSubjectNo(); i++) {
-            std1.setSubjects(Integer.toHexString(i + 123), i);
-        }
-
+        System.out.println(std1.setSubjects("DS"));
         System.out.println(std1);
 
+        Student std2 = new Student("Ali", 3.75f, new String[]{"ICT", "English", "DS", "Islamiate"}, "faoq@gmail.com");
+        System.out.println(std2);
+        System.out.println(std2.setSubjects("AP"));
+        System.out.println(std2);
+
+        Student std3 = null;
+        try {
+            std3 = new Student("Hammad Saeedi", -1, new String[]{}, "faoq");
+        } catch (RuntimeException e) {
+            System.out.println(std3);
+            System.out.println(e);
+        }
+        System.out.println(std3);
     }
 }
