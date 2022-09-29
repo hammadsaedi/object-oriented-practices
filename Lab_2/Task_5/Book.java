@@ -64,11 +64,16 @@ public class Book {
      * Get Chapter Name
      * @param chapterNo 
      * @throws ArraysIndexOutOfBoundsException if chapter Number passed is less than 0 or higher than 4
+     * @throws NullPointerException if try to access no initialized chapters
      * @return Chapter Name
      */
     public String getChapters(int chapterNo) {
         // return (chapterNo >= 0 || chapterNo < chapters.length)?chapters[chapterNo]:null;
-        return chapters[chapterNo];
+        // return chapters[chapterNo];
+        if (chapters[chapterNo] != null){
+            return chapters[chapterNo];
+        }
+        throw new NullPointerException();
     }
 
     /**
