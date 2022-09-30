@@ -5,10 +5,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Student {
-    String name;
-    float GPA;
-    String[] subjects = new String[5];
-    String email;
+    private String name;
+    private float GPA;
+    private String[] subjects = new String[5];
+    private String email;
 
     /**
      * Instantiate Student Object
@@ -51,8 +51,10 @@ public class Student {
         for (int i = 0; i < n; i++) {
             this.subjects[i] = subjects[i];
         }
+        if (!validateEmail(email)){
+            throw new RuntimeException("Email is Not Valid.");
+        }
         this.email = email;
-        if (!validateEmail()) throw new RuntimeException("Email is Not Valid.");
     }
 
     /**
@@ -65,7 +67,7 @@ public class Student {
     /**
      * @return true if Email is valid
      */
-    public boolean validateEmail(){
+    private boolean validateEmail(String email){
         if(email == null) return false;
         String regex = "^[a-zA-Z0-9_!#$%&'*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$";  ;
         Pattern pattern = Pattern.compile(regex);
@@ -143,9 +145,10 @@ public class Student {
      * @param email email must be valid else remain same
      */
     public void setEmail(String email) {
+        if (!validateEmail(email)) {
+            throw new RuntimeException("Email is not Valid.");
+        }
         this.email = email;
-        if (validateEmail()) return;
-        throw new RuntimeException("Email is not Valid.");
     }
 
     @Override

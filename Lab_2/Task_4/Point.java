@@ -1,8 +1,8 @@
 package Lab_2.Task_4;
 
 public class Point {
-    double x;
-    double y;
+    private double x;
+    private double y;
 
     /**
      * Instantiate Point at given params
@@ -26,8 +26,7 @@ public class Point {
      * Move x & y to 1 point (both)
      */
     public void move(){
-        this.x++;
-        this.y++;
+        move(1,1);
     }
 
     /**
@@ -35,7 +34,7 @@ public class Point {
      * @param x
      */
     public void move(double x){
-        this.x += x;
+        move(x, 0);
     }
 
     /**

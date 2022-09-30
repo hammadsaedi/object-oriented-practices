@@ -11,13 +11,12 @@ public class App {
         System.out.println(std1.checkProb());
 
         std1.setEmail("faoqzuhair@gmail.com");
-        System.out.println(std1.validateEmail());
+        System.out.println(std1);
         try {
             std1.setEmail("faoqzuhairgmailcom");
         } catch (RuntimeException e) {
             System.out.println(e);
         }
-        System.out.println(std1.validateEmail());
 
         System.out.println(std1.setSubjects("DS"));
         System.out.println(std1);

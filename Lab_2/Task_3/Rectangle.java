@@ -1,8 +1,8 @@
 package Lab_2.Task_3;
 
 public class Rectangle {
-    double l;
-    double w;
+    private double l;
+    private double w;
     
     /**
      * Instantiate Unit Square

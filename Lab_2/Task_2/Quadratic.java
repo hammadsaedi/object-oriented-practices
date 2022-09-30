@@ -1,9 +1,9 @@
 package Lab_2.Task_2;
 
 public class Quadratic {
-    double a;
-    double b; 
-    double c;
+    private double a;
+    private double b; 
+    private double c;
 
     /**
      * Instantiate Quadratic Equation with a = 0
@@ -19,11 +19,8 @@ public class Quadratic {
      * @param c
      */
     public Quadratic(double a, double b, double c) {
-        if (a != 0){
-            this.a = a;
-        } else {
-            this.a = 1;
-        }
+        this();
+        if (a != 0) this.a = a;
         this.b = b;
         this.c = c;
     }

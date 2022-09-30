@@ -3,10 +3,10 @@ package Lab_2.Task_7;
 import java.util.Objects;
 
 public class University {
-    String name;
-    String location;
-    String rectorName;
-    String[] Departments = new String[20];
+    private String name;
+    private String location;
+    private String rectorName;
+    private String[] Departments = new String[20];
 
     /**
      * Instantiate University

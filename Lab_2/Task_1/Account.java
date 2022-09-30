@@ -3,9 +3,9 @@ package Lab_2.Task_1;
 import java.time.LocalDate;
 
 public class Account {
-    double balance;
-    int yearOfOpening;
-    String cnic;
+    private double balance;
+    private int yearOfOpening;
+    private String cnic;
 
     /**
      * Instantiate Account Object
@@ -24,10 +24,10 @@ public class Account {
      * @apiNote cnic remains null
      */
     Account(double balance){
+        this();
         if (balance > 0) {
             this.balance = balance;
         }
-        this.yearOfOpening = LocalDate.now().getYear();
     }
 
     /**

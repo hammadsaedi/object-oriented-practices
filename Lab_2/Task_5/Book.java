@@ -1,8 +1,8 @@
 package Lab_2.Task_5;
 
 public class Book {
-    String author;
-    String[] chapters = new String[5];
+    private String author;
+    private String[] chapters = new String[5];
 
     /**
      * Instantiate Book
