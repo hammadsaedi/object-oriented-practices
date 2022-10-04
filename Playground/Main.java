@@ -14,5 +14,9 @@ public class Main {
         } catch (RuntimeException rte) {
             System.out.println(rte);
         }
+
+        for (int i = 0; i < 1000000; i++) {
+            Destructor ds = new Destructor();
+        }
     }
 }
