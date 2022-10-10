@@ -100,12 +100,21 @@ public class Student {
      * @return subject
      */
     private String[] getDeepCopySubject() {
-        ArrayList<String> buffer = new ArrayList<>();
+        String[] buffer = new String[getSizeOfSubjects()];
         for (int i = 0; i < this.subjects.length; i++){
             if (Objects.isNull(this.subjects[i])) break;
-            buffer.add(this.subjects[i]);
+            buffer[i] = this.subjects[i];
         }
-        return (String[]) buffer.toArray();
+        return buffer;
+    }
+
+    private int getSizeOfSubjects(){
+        int count = 0;
+        while (count < subjects.length) {
+            if (Objects.isNull(subjects[count])) break;
+            count++;
+        }
+        return count;
     }
 
     /**
