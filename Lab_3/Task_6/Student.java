@@ -45,7 +45,7 @@ public class Student {
     }
 
     private int getCompatibleSize(String[] subjects){
-        return Math.min(this.subjects.length, subjects.length)
+        return Math.min(this.subjects.length, subjects.length);
     }
 
     /**
@@ -59,11 +59,11 @@ public class Student {
      * @return true if Email is valid
      */
     private boolean validateEmail(String email){
-        if(email == null) return false;
-        String regex = "^[a-zA-Z0-9_!#$%&'*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$";  ;
-        Pattern pattern = Pattern.compile(regex);
-        Matcher matcher = pattern.matcher(this.email);
-        return matcher.matches();
+        String emailRegex = "^[a-zA-Z0-9_+&*-]+(?:\\."+ "[a-zA-Z0-9_+&*-]+)*@" +  "(?:[a-zA-Z0-9-]+\\.)+[a-z" +  "A-Z]{2,7}$";      
+        Pattern pat = Pattern.compile(emailRegex); 
+        if (email == null) 
+            return false; 
+        return pat.matcher(email).matches(); 
     }
 
     /**
