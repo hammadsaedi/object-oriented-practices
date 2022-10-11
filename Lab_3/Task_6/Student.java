@@ -1,8 +1,6 @@
 package Lab_3.Task_6;
 
-import java.util.ArrayList;
 import java.util.Objects;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Student {
