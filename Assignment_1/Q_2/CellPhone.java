@@ -1,4 +1,4 @@
-package Assignment_1.Q2;
+package Assignment_1.Q_2;
 
 public class CellPhone {
     private final String os;
