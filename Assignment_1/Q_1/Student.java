@@ -8,15 +8,30 @@ public class Student {
     private float obtainedMarks;
     private float totalMarks;
 
-    
+    /**
+     * Instantiate Student with default values
+     */
     public Student() {
         this("FA22-BAI-001", "N/A", 0, 0);
     }
 
+    /**
+     * Instantiate Student
+     * @param registrationNumber
+     * @param name
+     * @param totalMarks
+     */
     public Student(final String registrationNumber, final String name, final float totalMarks) {
         this(registrationNumber, name, 0, totalMarks);
     }
 
+    /**
+     * Instantiate Student
+     * @param registrationNumber
+     * @param name
+     * @param obtainedMarks
+     * @param totalMarks
+     */
     public Student(final String registrationNumber, final String name, final float obtainedMarks, final float totalMarks) {
         if (!isValidregistrationNumber(registrationNumber)) throw new RuntimeException("Invalid Registration Number.");
         this.registrationNumber = registrationNumber;
@@ -29,42 +44,86 @@ public class Student {
         this.obtainedMarks = obtainedMarks;
     }
 
+    /**
+     * Instantiate Student (Copy Constructor)
+     * @param obj
+     */
     public Student(final Student obj){
         this(obj.registrationNumber, obj.name, obj.obtainedMarks, obj.totalMarks);
     }
 
+    /**
+     * Get Registration Number
+     * @return Registration Number
+     */
     public String getRegistrationNumber() {
         return registrationNumber;
     }
 
+    /**
+     * Set Registration Number
+     * @param registrationNumber
+     * Registration Number must be valid else no effect on state
+     */
     public void setRegistrationNumber(final String registrationNumber) {
         if (isValidregistrationNumber(registrationNumber)) this.registrationNumber = registrationNumber;
     }
 
+    /**
+     * Get Name
+     * @return Name
+     */
     public String getName() {
         return name;
     }
 
+    /**
+     * Set Name
+     * @param name
+     * Name must not null else no effect on sate
+     */
     public void setName(final String name) {
         if (Objects.nonNull(name)) this.name = name;
     }
 
+    /**
+     * Get Obtained Marks
+     * @return Obtained Marks
+     */
     public float getObtainedMarks() {
         return obtainedMarks;
     }
 
+    /**
+     * Set Obtained Marks
+     * @param obtainedMarks
+     * Obtained Marks must be positive and must not exceed Obtained Marks else no effect on state
+     */
     public void setObtainedMarks(final float obtainedMarks) {
         if (obtainedMarks <= totalMarks && obtainedMarks > 0) this.obtainedMarks = obtainedMarks;
     }
 
+    /**
+     * Get Total Marks
+     * @return Totals Marks
+     */
     public float getTotalMarks() {
         return totalMarks;
     }
 
+    /**
+     * Set Total Marks
+     * @param totalMarks
+     * Total Marks must be positive else no effect on state
+     */
     public void setTotalMarks(final float totalMarks) {
         if (totalMarks > 0) this.totalMarks = totalMarks;
     }
 
+    /**
+     * Get grades of this Student
+     * @return Grades
+     */
     public char grades(){
         final float percentage = obtainedMarks / totalMarks * 100;
         if (percentage <  60){
@@ -79,6 +138,11 @@ public class Student {
         return 'A';
     }
 
+    /**
+     * Check is Registration Number is Valid or not
+     * @param registrationNumber
+     * @return true if Registration Number is Valid
+     */
     private boolean isValidregistrationNumber(String registrationNumber){
         if (registrationNumber.length() != 12) return false;
         
@@ -98,6 +162,11 @@ public class Student {
         return true;
     }
 
+    /**
+     * Compare two Students on base of grades
+     * @param s
+     * @return if this object is greater 1; if this student is smaller -1; if both have same 0
+     */
     public int compare(Student s){
         if (Float.floatToIntBits(this.grades()) > Float.floatToIntBits(s.grades())) return 1;
         if (Float.floatToIntBits(this.grades()) < Float.floatToIntBits(s.grades())) return -1;
