@@ -1,4 +1,4 @@
-package Task_5;
+package Lab_Tasks.Lab_1.Task_5;
 
 public class Distance {
     private int feet;

@@ -1,4 +1,4 @@
-package Task_6;
+package Lab_Tasks.Lab_1.Task_6;
 
 public class Point {
     private double x;

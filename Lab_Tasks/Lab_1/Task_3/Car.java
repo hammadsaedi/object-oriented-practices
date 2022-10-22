@@ -1,4 +1,4 @@
-package Task_3;
+package Lab_Tasks.Lab_1.Task_3;
 
 public class Car {
     public String ID;

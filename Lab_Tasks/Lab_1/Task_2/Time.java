@@ -1,4 +1,4 @@
-package Task_2;
+package Lab_Tasks.Lab_1.Task_2;
 
 public class Time {
     public int hour;

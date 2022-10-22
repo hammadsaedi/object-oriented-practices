@@ -1,4 +1,4 @@
-package Task_7;
+package Lab_Tasks.Lab_1.Task_7;
 
 public class Circle {
     private double radius;

@@ -1,4 +1,4 @@
-package act_2;
+package Lab_Tasks.Lab_1.act_2;
 
 public class Date {
     public int date;

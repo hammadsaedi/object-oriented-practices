@@ -1,6 +1,7 @@
-package Task_1;
+package Lab_Tasks.Lab_1.Task_1;
 
-import act_2.Date;
+import Lab_Tasks.Lab_1.act_2.Date;
+
 
 // A Student is an object in a university management System. 
 // Analyze the concept and identify the data 

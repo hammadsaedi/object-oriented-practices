@@ -1,4 +1,4 @@
-package act_3;
+package Lab_Tasks.Lab_1.act_3;
 
 public class CarPart {
     private String modelNumber;

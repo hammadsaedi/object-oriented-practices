@@ -1,4 +1,4 @@
-package act_1;
+package Lab_Tasks.Lab_1.act_1;
 
 
 public class App {

@@ -1,6 +1,6 @@
-package Task_1;
+package Lab_Tasks.Lab_1.Task_1;
 
-import act_2.Date;
+import Lab_Tasks.Lab_1.act_2.Date;
 
 public class App {
     public static void main(String[] args) {
