@@ -16,7 +16,7 @@ public class Circle {
     }
 
     public double circumference(){
-        return 2 * Math.PI * Math.pow(this.radius, 2);
+        return 2 * Math.PI * radius;
     }
 
     public boolean isUnitCircle() {

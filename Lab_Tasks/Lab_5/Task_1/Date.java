@@ -1,6 +1,6 @@
 package Lab_Tasks.Lab_5.Task_1;
 
-class Date {
+public class Date {
     private int day;
     private int month;
     private int year;

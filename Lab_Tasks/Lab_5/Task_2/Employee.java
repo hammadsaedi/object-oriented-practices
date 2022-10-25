@@ -1,5 +1,6 @@
 package Lab_Tasks.Lab_5.Task_2;
 
+import Lab_Tasks.Lab_5.Task_1.Date;
 import java.util.Objects;
 
 public class Employee {
