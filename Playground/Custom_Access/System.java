@@ -14,17 +14,18 @@ public class System {
         return "System [x=" + x + ", y=" + y + "]";
     }
 
-    public class Admin extends Functions {}
+    public class Admin extends Caller {}
 
-    public class User extends Functions {}
+    public class User extends Caller {}
 
-    private class Functions {
+    private class Caller {
         protected int getX() {
             return x;
         }
         
         protected void setX(int _x) {
-            if (this.getClass().getName().equals("Playground.Custom_Access.System$Admin"))
+            
+            if (this.getClass().getName().equals(System.Admin.class.getName()))
                 x = _x;
             else throw new RuntimeException("Access Denied!");
         }
@@ -34,7 +35,7 @@ public class System {
         }
         
         protected void setY(int _y) {
-            if (this.getClass().getName().equals("Playground.Custom_Access.System$Admin"))
+            if (this.getClass().getName().equals(System.Admin.class.getName()))
                 y = _y;
             else throw new RuntimeException("Access Denied!");
         }
