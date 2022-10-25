@@ -7,14 +7,14 @@ public class Main {
         System.User user = system.new User();
         
         admin.setX(14);
-        java.lang.System.out.println(user.getX());
+        java.lang.System.out.println("X: " + user.getX());
 
-        // try {
-        //     user.setY(19);
-        // } catch (RuntimeException e){
-        //     java.lang.System.out.println(e);
-        // }
+        try {
+            user.setY(19);
+        } catch (RuntimeException e){
+            java.lang.System.out.println(e);
+        }
 
-        java.lang.System.out.println(user.getY());
+        java.lang.System.out.println("Y: " + user.getY());
     }
 }

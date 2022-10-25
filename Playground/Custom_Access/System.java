@@ -24,13 +24,9 @@ public class System {
         }
         
         protected void setX(int _x) {
-            // if (new Exception().getStackTrace()[1].getClassName().equals(Admin.class.getName()))
-            // if (new Exception().getStackTrace()[1].getClass().isInstance(new Admin())) x = _x;
-            StackTraceElement[] trace =  new Exception().getStackTrace();
-            for (int i = 0; i < trace.length; i++) {
-                java.lang.System.out.println(trace[i].getClassName());
-            }
-            // else throw new RuntimeException("Access Denied! ");
+            if (this.getClass().getName().equals("Playground.Custom_Access.System$Admin"))
+                x = _x;
+            else throw new RuntimeException("Access Denied!");
         }
 
         protected int getY() {
@@ -38,8 +34,8 @@ public class System {
         }
         
         protected void setY(int _y) {
-            if (new Exception().getStackTrace()[1].getClassName().equals(Admin.class.getName()))
-            y = _y;
+            if (this.getClass().getName().equals("Playground.Custom_Access.System$Admin"))
+                y = _y;
             else throw new RuntimeException("Access Denied!");
         }
     } 
