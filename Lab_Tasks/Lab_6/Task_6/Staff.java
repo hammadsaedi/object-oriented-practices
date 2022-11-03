@@ -25,7 +25,6 @@ public class Staff extends Employee {
 
     @Override
     public String toString() {
-        return s
-        ff [Title: " + title + "]";
+        return "Staff [Title: " + title + "]";
     }   
 }

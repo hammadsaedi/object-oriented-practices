@@ -51,6 +51,9 @@ public class Person {
     public void setEmail(String email) {
         this.email = email;
     }
-    
-    
+
+    @Override
+    public String toString() {
+        return "Person [Name: " + name + ", Address: " + address + ", Number: " + number + ", E-mail: " + email + "]";
+    }
 }

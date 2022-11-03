@@ -184,7 +184,7 @@ public class TuckShop {
         for (int i = price.length - 1 ; i > index; i--) {
             this.price[i - 1] = this.price[i];
         }
-        for (int i = Food_Items.length - 1; i > index; i--)` {
+        for (int i = Food_Items.length - 1; i > index; i--) {
             this.Food_Items[i - 1] = this.Food_Items[i];
         }
         shrinkSize(1);
