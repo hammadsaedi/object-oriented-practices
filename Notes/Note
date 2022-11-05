@@ -1,0 +1,15 @@
+Cyclic Inheritance? Self Inheritance?
+
+
+Private Methods of parent class are not visible in child class. But, they are available.
+We can access it from child ref, if runner is in a same file. 
+
+refer: AcessRefer, PrivateOverRiding
+
+If Runner is in Parent Class:
+then child class can access private methods of parent class
+
+
+
+static block
+https://www.geeksforgeeks.org/g-fact-55/?ref=lbp
