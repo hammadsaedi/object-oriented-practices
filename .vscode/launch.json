@@ -1,0 +1,672 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "Assignments.Assignment_4.Collection.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "Assignments.Assignment_4.Algorithms.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "Assignments.Assignment_4.Arithmetic.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_13.Task_6.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_13.Task_4.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_13.Task_5.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_13.Task_3.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_13.Task_2.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_13.Task_1.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_12.Task_1.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch UI",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_10.UI",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Layout",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_11.Task_2.Layout",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_11.Task.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Frame",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_11.Task.Frame",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "Assignments.Assignment_1.Q_1.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(1)",
+            "request": "launch",
+            "mainClass": "Assignments.Assignment_3.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(2)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_1.Task_1.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(3)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_1.Task_2.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(4)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_1.Task_3.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(5)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_1.Task_4.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(6)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_1.Task_5.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(7)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_1.Task_6.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(8)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_1.Task_7.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(9)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_1.act_1.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(10)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_1.act_2.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(11)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_1.act_3.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(12)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_10.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(13)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_2.Task_1.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(14)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_2.Task_2.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(15)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_2.Task_3.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(16)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_2.Task_4.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(17)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_2.Task_5.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(18)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_2.Task_6.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(19)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_2.Task_7.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(20)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_3.Task_1.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(21)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_3.Task_2.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(22)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_3.Task_3.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(23)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_3.Task_4.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(24)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_3.Task_5.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(25)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_3.Task_6.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(26)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_3.Task_7.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(27)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_4.Part_1.Task_1.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(28)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_4.Part_2.Task_2.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(29)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_5.Task_1.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_5.Task_1.Test",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(30)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_5.Task_2.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(31)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_5.Task_3.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(32)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_5.Task_4.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(33)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_5.Task_5.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(34)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_5.Task_6.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(35)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_6.Task_1.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(36)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_6.Task_2.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(37)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_6.Task_3.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(38)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_6.Task_4.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(39)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_6.Task_5.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(40)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_6.Task_6.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(41)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_7.Task_1.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(42)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_7.Task_2.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(43)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_7.Task_3.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(44)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_7.Task_4.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(45)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_8.Task_1.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(46)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_8.Task_2.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(47)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_8.Task_3.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(48)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_9.Task_1.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(49)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_9.Task_2.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(50)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_9.Task_3.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(51)",
+            "request": "launch",
+            "mainClass": "Lab_Tasks.Lab_9.Task_4.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(52)",
+            "request": "launch",
+            "mainClass": "MidTerm.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Playground.Custom_Access.Main",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(53)",
+            "request": "launch",
+            "mainClass": "Playground.Debugger.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(1)",
+            "request": "launch",
+            "mainClass": "Playground.Destructor.Main",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Equal",
+            "request": "launch",
+            "mainClass": "Playground.Equality.Equal",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(54)",
+            "request": "launch",
+            "mainClass": "Playground.Fareh.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(55)",
+            "request": "launch",
+            "mainClass": "Playground.Inheritance.AccessRefer.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Parent",
+            "request": "launch",
+            "mainClass": "Playground.Inheritance.AccessRefer.Parent",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(56)",
+            "request": "launch",
+            "mainClass": "Playground.Inheritance.Human.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(57)",
+            "request": "launch",
+            "mainClass": "Playground.Inheritance.NonReproductive.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Child",
+            "request": "launch",
+            "mainClass": "Playground.Inheritance.ParentRunnerXPrivate.Child",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Parent(1)",
+            "request": "launch",
+            "mainClass": "Playground.Inheritance.ParentRunnerXPrivate.Parent",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(58)",
+            "request": "launch",
+            "mainClass": "Playground.Inheritance.Parse.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(59)",
+            "request": "launch",
+            "mainClass": "Playground.Inheritance.PrivateOverRiding.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Outer",
+            "request": "launch",
+            "mainClass": "Playground.Inheritance.PrivateOverRiding.Outer",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(60)",
+            "request": "launch",
+            "mainClass": "Playground.Inheritance.StaticOverRiding.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Car",
+            "request": "launch",
+            "mainClass": "Playground.Interfaces.Car",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(2)",
+            "request": "launch",
+            "mainClass": "Playground.RecursiveConstructor.Main",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(3)",
+            "request": "launch",
+            "mainClass": "Playground.Ref.Main",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(61)",
+            "request": "launch",
+            "mainClass": "Playground.Self_Inheritance.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(62)",
+            "request": "launch",
+            "mainClass": "Playground.Shadow.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(4)",
+            "request": "launch",
+            "mainClass": "Playground.Single.Main",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(5)",
+            "request": "launch",
+            "mainClass": "Playground.StaticOverLoading.Main",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch intergers",
+            "request": "launch",
+            "mainClass": "Playground.Wrapper.intergers",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(63)",
+            "request": "launch",
+            "mainClass": "Playground.staticBlock.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(6)",
+            "request": "launch",
+            "mainClass": "Playground.staticBlock.Main",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(64)",
+            "request": "launch",
+            "mainClass": "Quiz.Quiz_1.App",
+            "projectName": "Java_OOP_LabTasks_bfec595a"
+        }
+    ]
+}

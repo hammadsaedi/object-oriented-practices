@@ -1,0 +1,5 @@
+{
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnSaveMode": "file",
+    "files.autoSave": "onFocusChange"
+}

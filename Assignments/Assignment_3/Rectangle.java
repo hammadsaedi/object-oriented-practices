@@ -6,17 +6,18 @@ public class Rectangle extends GeometricObject {
 
     public Rectangle(boolean isFilled, String color, double thickness, double length, double width) {
         super(isFilled, color, thickness);
-        if (length < 0 || width < 0) throw new RuntimeException("Length or Width can never b Negative.");
+        if (length < 0 || width < 0)
+            throw new RuntimeException("Length or Width can never b Negative.");
         this.length = length;
         this.width = width;
     }
 
-    public double area(){
+    public double area() {
         return length * width;
     }
 
-    public double volume(){
-        return area() * thickness ;
+    public double volume() {
+        return area() * thickness;
     }
 
     public double getLength() {
@@ -55,9 +56,9 @@ public class Rectangle extends GeometricObject {
 
     @Override
     public int compareTo(GeometricObject obj) {
-        if (volume() > obj.volume()) 
+        if (volume() > obj.volume())
             return 1;
-        if (volume() < obj.volume()) 
+        if (volume() < obj.volume())
             return -1;
         return 0;
     }
